@@ -3,7 +3,7 @@
 if($_SERVER['REQUEST_METHOD']== 'POST')
 {
 	$fname=$_POST['fname'];
-	$lname=$_POST['lname'];	
+	$lname=$_POST['iname'];	
 	$email=$_POST['email'];
 	$birth=$_POST['dateofbirth'];
 	$telephone=$_POST['tel'];
